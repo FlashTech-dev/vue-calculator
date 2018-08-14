@@ -120,7 +120,7 @@ export default {
   }
 
   .operator {
-    background-color: orange;
-    color: white;
+    background-color: white;
+    color: black;
   }
 </style>
