@@ -82,10 +82,10 @@ export default {
     },
     equal() {
       let temp = `${this.operator(
-        parseFloat(this.current), 
-        parseFloat(this.previous)
+        parseFloat(this.previous), 
+        parseFloat(this.current)
       )}`.slice(0, 16);
-      let num = parseFloat(temp).toFixed(temp.length - (temp.indexOf('.') + 1));
+      //let num = parseFloat(temp).toFixed(temp.length - (temp.indexOf('.') + 1));
       this.current = temp;
       this.previous = null;
     }
@@ -120,7 +120,7 @@ export default {
   }
 
   .operator {
-    background-color: white;
-    color: black;
+    background-color: rgb(60, 0, 129);
+    color: white;
   }
 </style>
