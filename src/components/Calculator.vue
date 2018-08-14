@@ -85,7 +85,6 @@ export default {
         parseFloat(this.previous), 
         parseFloat(this.current)
       )}`.slice(0, 16);
-      //let num = parseFloat(temp).toFixed(temp.length - (temp.indexOf('.') + 1));
       this.current = temp;
       this.previous = null;
     }
