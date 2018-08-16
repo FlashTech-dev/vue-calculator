@@ -118,8 +118,12 @@ export default {
     border: 1px solid #999;
   }
 
+  .btn:hover {
+    cursor: pointer;
+  }
+
   .operator {
-    background-color: rgb(60, 0, 129);
+    background-color: orangered;
     color: white;
   }
 </style>
